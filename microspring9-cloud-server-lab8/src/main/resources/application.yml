@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          #uri: https://github.com/Yorso/microspring-config-data.git #Remote GitHub repository
-          uri: file://home/jorge/git/microspring9-bus-dynamic-changes-lab8/local-git-repo #Local git repository
+          #uri: https://github.com/Yorso/microspring-config-data.git #Remote GitHub repository where microspring9-cloud-client-lab8.yml file exists
+          uri: file://home/jorge/git/microspring9-bus-dynamic-change-lab8/microspring9-local-git-repo #Local git repository where microspring9-cloud-client-lab8.yml file exists
 
   application: 
     name: microspring9-cloud-server-lab8
