@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png" alt="Spring Cloud Netflix"/>
+</p>
+
 ##Lab 8 - Using Spring Cloud Bus
 
   **Part 1 - The Broker**
@@ -45,3 +49,10 @@
   **BONUS - @RefreshScope**
 
 16.  Return to your LuckyWordController and convert to @RefreshScope.  For test purposes, you can make the controller stateful by defining another String variable named fullStatement, and populate it in an init() method marked with a @PostConstruct annotation.  Change the showLuckyWord() method to simply return fullStatement.  Repeat the process to make a change to see if your @RefreshScope worked.
+
+##Info
+
+- [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)**
+
+- [x] **Instructor: [Ken Krueger, Technical Instructor in Software Development topics](https://linkedin.com/in/ken-krueger-43670111)**
+
