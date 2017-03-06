@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class IntegrationTests {
 
-	@Autowired LuckyWordController controller;
+	@Autowired LuckyWordConfigurationPropertiesController controller;
 	
 	@Test
 	public void contextLoads() {
