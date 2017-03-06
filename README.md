@@ -6,9 +6,9 @@
 
   **Part 1 - The Broker**
 
-1.  Download Rabbit MQ from [https://www.rabbitmq.com/download.html](https://www.rabbitmq.com/download.html).  Use appropriate distribution for your platform.  
+1.  Download Rabbit MQ from [https://www.rabbitmq.com/download.html](https://www.rabbitmq.com/download.html).  Use appropriate distribution for your platform. (Howto [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-rabbitmq))
 
-2.  Launch Rabbit MQ and leave it running.
+2.  Launch Rabbit MQ and leave it running. Basic commands:
 
   **Part 2 - The Server**
 
