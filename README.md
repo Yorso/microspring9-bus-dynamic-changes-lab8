@@ -58,7 +58,7 @@ or you can find a REST client plugin for one of your browsers that will do this 
 
   **BONUS - @RefreshScope**
 
-16.  Return to your LuckyWordController and convert to @RefreshScope.  For test purposes, you can make the controller stateful by defining another String variable named fullStatement, and populate it in an init() method marked with a @PostConstruct annotation.  Change the showLuckyWord() method to simply return fullStatement.  Repeat the process to make a change to see if your @RefreshScope worked. For this example, address is http://localhost:8002/lucky-word-scope](http://localhost:8002/lucky-word-scope).
+16.  Return to your LuckyWordController and convert to @RefreshScope.  For test purposes, you can make the controller stateful by defining another String variable named fullStatement, and populate it in an init() method marked with a @PostConstruct annotation.  Change the showLuckyWord() method to simply return fullStatement.  Repeat the process to make a change to see if your @RefreshScope worked. For this example, address is [http://localhost:8002/lucky-word-scope](http://localhost:8002/lucky-word-scope).
 
 ##Info
 
