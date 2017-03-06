@@ -41,17 +41,17 @@
   **Part 6 - Configuration Changes**
 
 13.  Return to your Git repository and edit your lucky-word-client.yml file.  Change the lucky word to some other values.  Commit your work:
-```
-git init (if applicable)
-git add microspring9-cloud-client-lab8.properties 
-git commit -m 'Testing Bus, changing words'
-```
+     ```
+      git init (if applicable)
+      git add microspring9-cloud-client-lab8.properties 
+      git commit -m 'Testing Bus, changing words'
+     ```
 Will this change be visible if you refresh [http://localhost:8002/lucky-word](http://localhost:8002/lucky-word) right now?  Why?
 
 14.  Make a POST request to http://localhost:8001/bus/refresh.  You can do this using a “curl” command in Linux / Unix:
-```
-curl -X POST http://localhost:8001/bus/refresh
-```
+     ```
+      curl -X POST http://localhost:8001/bus/refresh
+     ```
 or you can find a REST client plugin for one of your browsers that will do this (I use “Simple REST Client” on Chrome).
 
 15.  Refresh [http://localhost:8002/lucky-word](http://localhost:8002/lucky-word).  Your changes should be visible.  If so, congratulations, you have successfully used Spring Cloud Bus!
