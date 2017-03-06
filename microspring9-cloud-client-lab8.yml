@@ -1,0 +1,5 @@
+#File ued to testing Spring Cloud Bus. You can convert yml file in properties file if you prefer 
+---
+wordConfig:
+  preamble: The lucky word is
+  luckyWord: Irish
