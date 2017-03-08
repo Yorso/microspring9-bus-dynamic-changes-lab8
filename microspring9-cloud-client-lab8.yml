@@ -1,4 +1,4 @@
-# File used for testing Spring Cloud Bus.
+# File used for testing Spring Cloud Bus. This file must be in local git repository
 ---
 wordConfig:
   preamble: The lucky word is
